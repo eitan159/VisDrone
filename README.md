@@ -15,7 +15,7 @@ download this files.
 # Data stracture
 please change the names for your split folders to: train, val, test.
 your data stracture need to be look like this:
-
+```
 root/
 |_train
     |_images
@@ -26,7 +26,7 @@ root/
 |_test
     |_images
     |_annotations
-
+```
 <br/>
 
 # Quick Start 
