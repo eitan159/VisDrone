@@ -55,9 +55,13 @@ params
 Please change the config files before training
 Run PP-YOLOE+:   
 ```
-python VisDrone/main.py --model_size s --exp_name ppyoloe_plus 
+python VisDrone/main.py --data_root your_path 
 ```
 
 params  
-`--model_size` (default s): model size of PPYOLOE+ to train   
-`--exp_name` (default None): exp name, dir name for all your saved ckpt etc.  
+`--data_root`: path for your data splits directories.  
+`--work_dir` (default exp/): dir name for all your saved ckpt, logs, etc.  
+`--wandb_project` (default VisDrone): wandb project name.
+`--model_size` (default s): model version of PPYOLOE+ to train. Only supported with s/x
+`--lr` (default 0.001)
+`--epochs` (default 30) 
