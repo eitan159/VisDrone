@@ -62,6 +62,9 @@ params
 `--data_root`: path for your data splits directories.  
 `--work_dir` (default exp/): dir name for all your saved ckpt, logs, etc.  
 `--wandb_project` (default VisDrone): wandb project name.
+
 `--model_size` (default s): model version of PPYOLOE+ to train. Only supported with s/x
+
 `--lr` (default 0.001)
+
 `--epochs` (default 30) 
